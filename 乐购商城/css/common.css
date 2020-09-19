@@ -1,0 +1,63 @@
+@charset 'utf-8';
+body{
+font-family:SimHei;
+font-size: 14px;
+color: #333333;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 版心 */
+.lgd-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+    zoom: 1;
+}
+
+a{
+    text-decoration: none;
+
+}
+input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* 字体颜色 */
+
+.ce6{
+    color: #e6e6e6;
+}
+
+.c1a{
+    color: #1a1a1a;
+}
+
+
+
+
+/* 字体大小 */
+.ft18{
+    font-size: 18px;
+}
+
+
+/* margin */
+.mt4{
+    margin-top: 4px;
+}

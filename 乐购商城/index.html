@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- 引入公共样式 -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- 引入轮播的样式 -->
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- 引入当前文件样式 -->
+    <link rel="stylesheet" href="./css/index.css">
+
+
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="top">
+            <div class="lg-container clearfix">
+                <!-- logo -->
+                <h1>
+                    <a href="index.html">
+                        <img src="./images/logo.jpg" alt="">
+                    </a>
+                </h1>
+                <div class="txturl fl">
+                    legochina.cn
+                </div>
+                <div class="logintxtbox fr">
+                    欢迎光临<a href="#">乐购</a>，请 <a href="#">登陆</a>\<a href="#">注册</a>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索区域 -->
+        <div class="searchbox lg-container mt4 clearfix">
+            <div class="cartorder fr">
+                <a href="#" class="fl">购物车 <i>3</i></a>
+                <a href="#" class="fl">我的订单</a>
+            </div>
+            <form action="#" class="fr">
+                <input type="text" name="" class="fl" placeholder="创意文具">
+                <input type="submit" value="" class="fl">
+            </form>
+        </div>
+        <!-- 导航 -->
+        <nav class="lg-container clearfix">
+            <ul class="fr">
+                <li><a href="#">图书</a></li>
+                <li><a href="#">电子书</a></li>
+                <li><a href="#">原创文学</a></li>
+                <li><a href="#">服装</a></li>
+                <li><a href="#">运动户外</a></li>
+                <li><a href="#">孕婴童</a></li>
+                <li><a href="#">家居</a></li>
+                <li><a href="#">创意文具</a></li>
+                <li><a href="#">地方特产</a></li>
+                <li><a href="#">海外购</a></li>
+                <li><a href="#">电器城</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <!-- banner区域 -->
+    <section id="banner" class="lg-container clearfix">
+        <ul class="menulist fl">
+            <li>
+                <p>
+                    <a href="#">图书、电子书、童书</a>
+                </p>
+                <div class="menu">1 菜单</div>
+            </li>
+            <li>
+                <p> <a href="#">创意文具</a></p>
+                <div class="menu">2菜单</div>
+
+            </li>
+            <li>
+                <p><a href="#">服饰、内衣</a></p>
+            </li>
+            <li>
+                <p><a href="#">鞋靴、箱包</a></p>
+            </li>
+            <li>
+                <p><a href="#">运动户外</a></p>
+            </li>
+            <li>
+                <p><a href="#">孕、婴、童</a></p>
+            </li>
+            <li>
+                <p><a href="#">家居、家纺、汽车</a></p>
+            </li>
+            <li>
+                <p><a href="#">家具、家装、康体</a></p>
+            </li>
+            <li>
+                <p><a href="#">美妆、个人护理、成人</a></p>
+            </li>
+            <li>
+                <p><a href="#">食品、茶酒、生鲜</a></p>
+            </li>
+            <li>
+                <p><a href="#">腕表、珠宝、眼镜</a></p>
+            </li>
+            <li>
+                <p><a href="#">手机、数码</a></p>
+            </li>
+            <li>
+                <p><a href="#">电脑办公</a></p>
+            </li>
+            <li>
+                <p><a href="#">家用电器</a></p>
+            </li>
+
+        </ul>
+        <!-- 右边的轮播 -->
+        <div class="slidebox pptbox fl" id="slider">
+            <ul class="innerwrapper">
+                <li>
+                    <a href="#">
+                        <img src="./images/banner1.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/banner2.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/banner3.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/banner4.jpg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./images/banner5.jpg" />
+                    </a>
+                </li>
+            </ul>
+            <ul class="controls">
+                <li class="current">1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+            <span class="btnleft"></span>
+            <span class="btnright"></span>
+        </div>
+
+    </section>
+    <!-- 今日推荐 -->
+    <section id="recommend" class="lg-container mt13">
+        <!-- 标题 -->
+        <div class=" com-title fs24 cf60">乐购·今日推荐</div>
+        <!-- 内容区域 -->
+        <div class="re-con">
+            <ul class="clearfix">
+                <script>
+                    for (let i = 0; i < 12; i++) {
+
+                        document.write(
+                            `<li>
+                                <p class="tcenter"><img src="./images/index06_05.jpg" alt=""></p>
+                                <p><img src="./images/index05_18.jpg" alt=""></p>
+                                <p class="tindent10">黑爵青蜂侠六键电竞游戏鼠标</p>
+                                <p class="tindent10">全国联保 一年免费包换</p>
+                                <p class="tindent10">￥:299</p>
+                                </li>
+                                `
+                        )
+                    }
+                </script>
+            </ul>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 电子书 -->
+    <section id="ebook" class="lg-container bd mt40 clearfix floor">
+
+        <div class=" ebook-left fl" style="height: 475px;">
+            <!-- 头部 -->
+            <div class="com-title cf60 fs28">图书 电子书
+
+                <ul class="fr fs18 c333">
+                    <li class="fl active">最新上架</li>
+                    <li class="fl">独家畅销</li>
+                    <li class="fl">电子书</li>
+                </ul>
+            </div>
+
+            <!-- 内容区域 -->
+            <div class="con cur clearfix ">
+                <!-- 左边内容 -->
+                <div class="con-left fl">
+                    <img src="../乐购商城/images/index7_07.jpg" alt="">
+                    <div class="pd5">
+                        <a href="#">中小学教辅</a>
+                        <a href="#">外语</a>
+                        <a href="#">考试</a>
+
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">青春文学</a>
+
+                        <a href="#">成功\励志</a>
+                        <a href="#">管理</a>
+                        <a href="#">历史</a>
+
+                        <a href="#">哲学\宗教</a>
+                        <a href="#">亲子\家教</a>
+                        <a href="#">全部分类></a>
+                    </div>
+
+                </div>
+
+                <!-- 右边内容 -->
+                <div class="con-right fl">
+                    <ul>
+                        <li>
+                            <div class="slidebox pptbox fl haha">
+                                <ul class="innerwrapper">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner1.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner2.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner3.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner5.jpg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="controls">
+                                    <li class="current">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                </ul>
+                                <span class="btnleft"></span>
+                                <span class="btnright"></span>
+                            </div>
+
+                        </li>
+
+
+
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+
+
+                                document.write(`
+                               
+                               <li>  
+                        <h3 class="pd5">奥运狂欢</h3>
+                        <p class="red pd5">10万种电子书直降40%</p>
+                        <p> <img src="../乐购商城/images/index09_05.jpg" alt=""></p>
+                        <p>
+                            <span class="red pd5">￥49</span>
+                            <span class="del">￥79</span>
+                        </p>
+                    </li>
+                               
+                               
+                               `)
+
+
+                            }
+                        </script>
+
+
+
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 内容区域2 -->
+            <div class="con clearfix">
+                <!-- 左边内容 -->
+                <div class="con-left fl">
+                    <img src="../乐购商城/images/index7_07.jpg" alt="">
+                    <div class="pd5">
+                        <a href="#">中小学教辅</a>
+                        <a href="#">外语</a>
+                        <a href="#">考试</a>
+
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">青春文学</a>
+
+                        <a href="#">成功\励志</a>
+                        <a href="#">管理</a>
+                        <a href="#">历史</a>
+
+                        <a href="#">哲学\宗教</a>
+                        <a href="#">亲子\家教</a>
+                        <a href="#">全部分类></a>
+                    </div>
+
+                </div>
+
+                <!-- 右边内容 -->
+                <div class="con-right fl">
+                    <ul>
+                        <li>
+                            <div class="slidebox pptbox fl haha">
+                                <ul class="innerwrapper">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner1.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner2.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner3.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner5.jpg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="controls">
+                                    <li class="current">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                </ul>
+                                <span class="btnleft"></span>
+                                <span class="btnright"></span>
+                            </div>
+
+                        </li>
+
+
+
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+
+
+                                document.write(`
+                                   
+                                   <li>  
+                            <h3 class="pd5">奥运狂欢22222</h3>
+                            <p class="red pd5">10万种电子书直降40%</p>
+                            <p> <img src="../乐购商城/images/index09_05.jpg" alt=""></p>
+                            <p>
+                                <span class="red pd5">￥49</span>
+                                <span class="del">￥79</span>
+                            </p>
+                        </li>
+                                   
+                                   
+                                   `)
+
+
+                            }
+                        </script>
+
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- 内容区域3 -->
+            <div class="con clearfix">
+                <!-- 左边内容 -->
+                <div class="con-left fl">
+                    <img src="../乐购商城/images/index7_07.jpg" alt="">
+                    <div class="pd5">
+                        <a href="#">中小学教辅</a>
+                        <a href="#">外语</a>
+                        <a href="#">考试</a>
+
+                        <a href="#">小说</a>
+                        <a href="#">文学</a>
+                        <a href="#">青春文学</a>
+
+                        <a href="#">成功\励志</a>
+                        <a href="#">管理</a>
+                        <a href="#">历史</a>
+
+                        <a href="#">哲学\宗教</a>
+                        <a href="#">亲子\家教</a>
+                        <a href="#">全部分类></a>
+                    </div>
+
+                </div>
+
+                <!-- 右边内容 -->
+                <div class="con-right fl">
+                    <ul>
+                        <li>
+                            <div class="slidebox pptbox fl haha">
+                                <ul class="innerwrapper">
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner1.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner2.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner3.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner4.jpg" />
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./images/banner5.jpg" />
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul class="controls">
+                                    <li class="current">1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                </ul>
+                                <span class="btnleft"></span>
+                                <span class="btnright"></span>
+                            </div>
+
+                        </li>
+
+
+
+                        <script>
+                            for (let i = 0; i < 6; i++) {
+
+
+                                document.write(`
+                                   
+                                   <li>  
+                            <h3 class="pd5">奥运狂欢33333333</h3>
+                            <p class="red pd5">10万种电子书直降40%</p>
+                            <p> <img src="../乐购商城/images/index09_05.jpg" alt=""></p>
+                            <p>
+                                <span class="red pd5">￥49</span>
+                                <span class="del">￥79</span>
+                            </p>
+                        </li>
+                                   
+                                   
+                                   `)
+
+
+                            }
+                        </script>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ebook-right bd fr" style="height: 475px;">
+
+            <h4 class="tcenter">新书畅销榜</h4>
+            <ul>
+                <li class="clearfix">
+                    <span class="red">1</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix cur fs14">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+
+                <li class="clearfix">
+                    <span class="red">2</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40 ">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="red">3</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40 ">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span>4</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40 ">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span>5</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span>6</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span>7</span>
+                    <p class="title fs16 c4d">就喜欢你看不惯我 又干不</p>
+
+                    <div class="clearfix">
+                        <img src="../乐购商城/images/index08_05.jpg" alt="" class="fl">
+                        <p class="c40">从你的世界路过
+                            入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次阅读</p>
+                    </div>
+                </li>
+            </ul>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- 服装 -->
+
+    <section id="cloth" class=" clearfix lg-container mt40 floor">
+        <div class="com-title lg-container fs18 c333">服装
+            <ul class="fr">
+                <li class="active">女装内衣</li>
+                <li>热销男装</li>
+                <li>精品鞋靴</li>
+            </ul>
+
+        </div>
+        <!-- 左边内容 -->
+        <div class="cloth-left fl clearfix">
+
+
+            <div class="lis fl">
+                <img src="../乐购商城/images/index7_17.jpg" alt="" class="fl">
+                <div class="pd5">
+                    <a href="#">女包</a>
+                    <a href="#">防晒品</a>
+                    <a href="#">短裤</a>
+
+                    <a href="#">冰丝内裤</a>
+                    <a href="#">男包</a>
+                    <a href="#">功能箱包</a>
+
+                    <a href="#">蕾丝衬衫</a>
+                    <a href="#">奢侈品</a>
+                    <a href="#">男鞋</a>
+
+                    <a href="#">女包</a>
+                    <a href="#">女鞋</a>
+                    <a href="#">全部分类></a>
+                </div>
+
+
+            </div>
+            <!-- 轮播图 -->
+            <div class="photo fr">
+                <div class="slidebox pptbox fl hehe">
+                    <ul class="innerwrapper">
+                        <li>
+                            <a href="#">
+                                <img src="../乐购商城/images/t1.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/t2.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/t3.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/t4.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/banner5.jpg" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="controls">
+                        <li class="current">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                    <span class="btnleft"></span>
+                    <span class="btnright"></span>
+                </div>
+
+                <img src="../乐购商城/images/index11_08.jpg" alt="" class="fr">
+
+            </div>
+
+        </div>
+
+        <!-- 右边内容 -->
+        <div class="cloth-right fr">
+            <ul class="cur">
+                1
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+
+            </ul>
+
+            <ul>
+                2
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+            </ul>
+
+            <ul>
+                3
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+
+            </ul>
+        </div>
+
+        <!-- 底部logo -->
+        <div class="logo fl">
+            <ul>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <img src="./images/logo13_11.jpg" alt="">
+
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- 户外运动 -->
+
+    <section id="sport" class="lg-container floor">
+
+        <div class="com-title lg-container fs18 c333">户外运动
+            <ul class="fr">
+                <li class="active">国际名品</li>
+                <li>户外装备</li>
+                <li>运动潮流</li>
+            </ul>
+
+        </div>
+        <!-- 左边内容 -->
+        <div class="sport-left fl clearfix">
+
+
+            <div class="lis fl">
+                <img src="../乐购商城/images/hw0.jpg" alt="" class="fl">
+                <div class="pd5">
+                    <a href="#">女包</a>
+                    <a href="#">防晒品</a>
+                    <a href="#">短裤</a>
+
+                    <a href="#">冰丝内裤</a>
+                    <a href="#">男包</a>
+                    <a href="#">功能箱包</a>
+
+                    <a href="#">蕾丝衬衫</a>
+                    <a href="#">奢侈品</a>
+                    <a href="#">男鞋</a>
+
+                    <a href="#">女包</a>
+                    <a href="#">女鞋</a>
+                    <a href="#">全部分类></a>
+                </div>
+
+
+            </div>
+            <!-- 轮播图 -->
+            <div class="photo fr">
+                <div class="slidebox pptbox fl hehe">
+                    <ul class="innerwrapper">
+                        <li>
+                            <a href="#">
+                                <img src="../乐购商城/images/hw1.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/hw2.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/hw3.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/hw4.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/hw5.jpg" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="controls">
+                        <li class="current">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                    <span class="btnleft"></span>
+                    <span class="btnright"></span>
+                </div>
+
+                <img src="../乐购商城/images/index11_08.jpg" alt="" class="fr">
+
+            </div>
+
+        </div>
+
+        <!-- 右边内容 -->
+        <div class="sport-right fr">
+            <ul class="cur">
+                1
+                <li><img src="../乐购商城/images/yd2.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/yd2.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/yd2.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/yd1.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/yd1.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/yd1.jpg" alt=""></li>
+
+            </ul>
+
+            <ul>
+                2
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+            </ul>
+
+            <ul>
+                3
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+
+            </ul>
+        </div>
+
+        <!-- 底部logo -->
+        <div class="logo fl">
+            <ul>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <img src="./images/logo13_11.jpg" alt="">
+
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+
+            </ul>
+        </div>
+
+    </section>
+
+    <!--童装 童鞋 婴儿装  -->
+    <section id="childcloth" class="lg-container floor">
+
+        <div class="com-title lg-container fs18 c333">童鞋
+            <ul class="fr">
+                <li class="active">儿童服装</li>
+                <li>婴儿装</li>
+                <li>小潮童鞋</li>
+            </ul>
+
+        </div>
+        <!-- 左边内容 -->
+        <div class="childcloth-left fl clearfix">
+
+
+            <div class="lis fl">
+                <img src="../乐购商城/images/tz1.jpg" alt="" class="fl">
+                <div class="pd5">
+                    <a href="#">女包</a>
+                    <a href="#">防晒品</a>
+                    <a href="#">短裤</a>
+
+                    <a href="#">冰丝内裤</a>
+                    <a href="#">男包</a>
+                    <a href="#">功能箱包</a>
+
+                    <a href="#">蕾丝衬衫</a>
+                    <a href="#">奢侈品</a>
+                    <a href="#">男鞋</a>
+
+                    <a href="#">女包</a>
+                    <a href="#">女鞋</a>
+                    <a href="#">全部分类></a>
+                </div>
+
+
+            </div>
+            <!-- 轮播图 -->
+            <div class="photo fr">
+                <div class="slidebox pptbox fl hehe">
+                    <ul class="innerwrapper">
+                        <li>
+                            <a href="#">
+                                <img src="../乐购商城/images/lunbotz1.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/lunbotz2.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/lunbotz3.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/lunbotz4.jpg" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/lunbotz5.jpg" />
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="controls">
+                        <li class="current">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                        <li>5</li>
+                    </ul>
+                    <span class="btnleft"></span>
+                    <span class="btnright"></span>
+                </div>
+
+                <img src="../乐购商城/images/index11_08.jpg" alt="" class="fr">
+
+            </div>
+
+        </div>
+
+        <!-- 右边内容 -->
+        <div class="childcloth-right fr">
+            <ul class="cur">
+                1
+                <li><img src="../乐购商城/images/tz2.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/tz2.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/tz2.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/tz3.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/tz3.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/tz3.jpg" alt=""></li>
+
+            </ul>
+
+            <ul>
+                2
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+            </ul>
+
+            <ul>
+                3
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index100_11.jpg" alt=""></li>
+
+            </ul>
+        </div>
+
+        <!-- 底部logo -->
+        <div class="logo fl">
+            <ul>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <img src="./images/logo13_11.jpg" alt="">
+
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+                <li>
+                    <img src="./images/logo13_11.jpg" alt="">
+
+                </li>
+
+            </ul>
+        </div>
+
+
+
+    </section>
+
+    <!-- 家居日用 -->
+    <section id="house" class="lg-container clearfix floor">
+
+        <div class="com-title lg-container fs18 c333">家居日用
+
+        </div>
+
+        <!-- 左边内容 -->
+        <div class="house-left fl clearfix">
+            <img src="../乐购商城/images/index21_05.jpg" alt="" class="fl">
+
+
+
+
+        </div>
+
+        <!-- 右边内容 -->
+        <div class="house-right fr">
+
+            <ul>
+                <li><img src="../乐购商城/images/index22_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index22_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index22_05.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index22_05.jpg" alt=""></li>
+
+                <li><img src="../乐购商城/images/index23_08.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index23_08.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index23_08.jpg" alt=""></li>
+                <li><img src="../乐购商城/images/index23_08.jpg" alt=""></li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- 推广商品 -->
+    <section id="spread" class="lg-container mt40">
+
+        <div class="com-title lg-container fs18 c333">推广商品 </div>
+        <ul>
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+
+            </li>
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+
+            <li><img src="../乐购商城/images/index25_12.jpg" alt="">
+                <h4>Pigeon法国制奶嘴，无毒天然乳胶</h4>
+                <p class="red tcenter fs24">￥:189</p>
+                <p class="tcenter c74">已有条评价<span class="red">988</span></p>
+            </li>
+
+        </ul>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- 页尾 -->
+    <footer class="clearfix mt65">
+
+        <div class="com-title  fs18 c333"></div>
+
+        <div class="foottop">
+            <ul>
+                <li><img src="../乐购商城/images/222_11.png" alt=""></li>
+                <li><img src="../乐购商城/images/222_13(1).png" alt=""></li>
+                <li><img src="../乐购商城/images/222_15.png" alt=""></li>
+                <li><img src="../乐购商城/images/222_17.png" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="footbutton">
+
+            <ul>
+
+                <li><a href="#" class="fs18 c000">购物指南</a></li>
+                <li><a href="#" class="fs18 c000">支付方式</a></li>
+                <li> <a href="#" class="fs18 c000">订单服务</a></li>
+                <li><a href="#" class="fs18 c000">退换货</a></li>
+                <li> <a href="#" class="fs18 c000">商家服务</a></li>
+
+                <li><a href="#" class="c66">购物流程 </a></li>
+                <li><a href="#"></a>货到付款</li>
+                <li> <a href="#"></a>订单配送查询</li>
+                <li><a href="#"></a>退换货政策</li>
+                <li> <a href="#"></a> 商家中心</li>
+
+                <li><a href="#" class="c66">发票制度</a></li>
+                <li><a href="#"></a>网上支付</li>
+                <li> <a href="#"></a>订单状态说明</li>
+                <li><a href="#"></a>自助申请退换货</li>
+                <li> <a href="#"></a>运营服务</li>
+
+                <li><a href="#" class="c66">账户管理</a></li>
+                <li><a href="#"></a>礼品卡支付</li>
+                <li> <a href="#"></a>自助取消订单</li>
+                <li><a href="#"></a>退换货进度查询</li>
+                <li> <a href="#"></a> 加入尾品汇</li>
+
+
+                <li><a href="#" class="c66">会员优惠</a></li>
+                <li><a href="#" class="c66">银行转帐</a></li>
+                <li> <a href="#" class="c66">自助修改订单</a></li>
+                <li><a href="#"></a>退款方式和时间</li>
+
+            </ul>
+
+        </div>
+
+        <p class="fl c66">公司简介 | Investor Relations | 网站联盟 | 乐购招商 | 机构销售 | 手机乐购 | 官方Blog | 热词搜索</p>
+        <h4 class="c66">Copyright (C) 乐购网 2004-2016, All Rights Reserved</h4>
+
+
+        <img src="../乐购商城/images/logo_00.png" alt="">
+
+    </footer>
+
+
+    <!-- 楼层滚动 导航-->
+    <div class="floornav">
+        <ul>
+            <li class="bg1" bgc='#93d46f'>图书</li>
+            <li class="bg2" bgc='#f65727'>衣服</li>
+            <li class="bg3" bgc='#bb9dee'>运动</li>
+            <li class="bg4" bgc='#ff7394'>童装</li>
+            <li class="bg5" bgc='#c2ec51'>家居</li>
+        </ul>
+    </div>
+
+
+
+    <!-- 顶部搜索框 -->
+    <div class="topsearch">
+
+    <div class="lg-container searchbox"></div>
+
+
+
+
+    </div>
+
+    <!-- 回到顶部 -->
+    <div class="returntop">
+        <img src="../乐购商城/images/gototop_05.jpg" alt="">
+    </div>
+
+
+    <!-- 领券中心 -->
+    <div class="Coupon">
+        <img src="../乐购商城/images/two_34.jpg" alt="">
+        <span>
+            <img src="../乐购商城/images/two_30.jpg" alt="" class="img1">
+            <img src="../乐购商城/images/two_35.jpg" alt="" class="img2">
+            <img src="../乐购商城/images/two_40.jpg" alt="" class="img3">
+        </span>
+    </div>
+
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./lib/jquery.slidebox.js"></script>
+    <script src="../乐购商城/slide.fn.js"></script>
+    <script src="./js/index.js"></script>
+
+
+
+</body>
+
+</html>
