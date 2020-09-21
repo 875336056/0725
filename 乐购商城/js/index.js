@@ -11,6 +11,17 @@ $(function () {
         controlsH: 12, //控制按钮高度
         radius: 6 //控制按钮圆角度数
     });
+    $("#lunbo1111").slidebox({
+        boxh: 420, //盒子的高度
+        w: 1200, //图片的宽度
+        h: 420, //图片的高度
+        isShow: true, //是否显示控制器
+        isShowBtn: true, //是否显示左右按钮
+        controltop: 10, //控制按钮上下偏移的位置,要将按钮向下移动   首先保证boxh 高度>图片 h
+        controlsW: 12, //控制按钮宽度
+        controlsH: 12, //控制按钮高度
+        radius: 6 //控制按钮圆角度数
+    });
     $(".haha").slidebox({
         boxh: 218, //盒子的高度
         w: 330, //图片的宽度
@@ -142,7 +153,7 @@ $(window).scroll(function () {
      }else{
          $(".topsearch").stop().slideUp();
 
-         $(".topsearch>div form").appendTo(".searchbox")
+         $(".topsearch>div form").appendTo(" head .searchbox")
      }
   
  })
